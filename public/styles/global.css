@@ -1,0 +1,19 @@
+body {
+    background-color: #090f1a;
+    color: white;
+}
+
+.container {      
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 10px 0;
+    display: block;
+    font-size: 20px;
+}

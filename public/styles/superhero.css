@@ -1,0 +1,85 @@
+.center {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bg-hero {
+    margin-top: 100px;
+    
+}
+
+.superhero {
+
+font-family: futura;
+font-style: italic;
+
+width:100%;
+
+margin: 0 auto;
+text-align: center;
+
+color:#313131;
+font-size:45px;
+font-weight: bold;
+position: absolute;
+-webkit-animation:colorchange 20s infinite alternate;
+
+
+}
+
+@-webkit-keyframes colorchange {
+0% {
+    
+    color: rgb(14, 225, 120);
+}
+
+10% {
+    
+    color: #8e44ad;
+}
+
+20% {
+    
+    color: #1abc9c;
+}
+
+30% {
+    
+    color: #d35400;
+}
+
+40% {
+    
+    color: rgb(191, 79, 197);
+}
+
+50% {
+    
+    color: #34495e;
+}
+
+60% {
+    
+    color: rgb(255, 255, 255);
+}
+
+70% {
+    
+    color: #2980b9;
+}
+80% {
+
+    color: #f1c40f;
+}
+
+90% {
+
+    color: #2980b9;
+}
+
+100% {
+    
+    color: pink;
+}
+}
